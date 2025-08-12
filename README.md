@@ -117,14 +117,15 @@ This framework tests the **automationexercise.com** e-commerce platform, coverin
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/qa-ecommerce-test.git
+   git clone https://github.com/huilek00/qa-ecommerce-test.git
    cd qa-ecommerce-test
 
 
 2. **Create virtual environment** (recommended)
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    venv\Scripts\activate    # On Windows
+    source venv/bin/activate # On macOS/Linux
 
 
 3. **Install dependencies**
@@ -205,7 +206,7 @@ This report shows:
 | **Total** | **31**     | **31** | **0**  | **100%**  |
 
 
-
+---
 
 ### 📸 Example: Screenshot-on-Failure
 To demonstrate the **automatic screenshot capture** feature, I created a temporary **fake fail test** in `tests/test_login.py`.  
@@ -225,9 +226,6 @@ This will generate:
 
 - **`reports/report_fail_test.html`** → HTML report showing the failed test  
 - **`reports/screenshots/PYTEST_FAILURE_<test_name>_<timestamp>.png`** → Automatically captured screenshot at the moment of failure  
-
-
----
 
 
 ### 📸 Example of Failure Report & Screenshot
