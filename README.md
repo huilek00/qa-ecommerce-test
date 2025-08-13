@@ -196,7 +196,8 @@ This report shows:
 - **21 API tests** covering product management, user account management, order management, and API validation
 
 
-![HTML Test Report](reports/screenshots/Screenshot_html_test_report.png)
+![HTML Test Report Page 1](reports/screenshots/Screenshot_html_test_report_1.png)
+![HTML Test Report Page 2](reports/screenshots/Screenshot_html_test_report_2.png)
 
 
 | Category  | Test Cases | Passed | Failed | Pass Rate |
